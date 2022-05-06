@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: bisque;
+  position: relative;
+  padding: 100px 300px;
+  text-align: center;
+}
+
+.main {
+  position: relative;
+}
+
+.main_img {
+  position: relative;
+}
+
+.main__img-hello {
+  width: 15%;
+  padding-bottom: 275px;
+}
+
+.main__img-silvester {
+  width: 30%;
+  padding-bottom: 50px;
+}
+
+.main__text {
+  background-color: #51bccc;
+  padding: 50px 50px;
+  position: relative;
+  color: white;
+}
